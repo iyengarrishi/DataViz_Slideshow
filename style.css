@@ -1,0 +1,46 @@
+
+		
+.contentHere{
+	width: 960px;
+	height: 600px;
+	margin: 100px;
+}
+
+.buttonsHere{
+	width:100%;
+	float:left;
+	}
+
+.imagesHere{
+	width: 100%;
+	float: left;
+	position: inherit;
+}
+
+.button{
+	width: 80px;
+	padding: 6px;
+	margin: 8px;
+	border-width: 1px;
+	background-color: blue;
+	border-color: black;
+	color: white;
+	border-style: solid;
+	float: left;
+	text-align: center;
+	cursor: pointer;
+}
+
+.button:hover{
+	color: orange;
+}
+
+.disabled{
+	cursor:wait;
+	background-color: gray;
+	color: black;
+}
+
+.disabled:hover{
+	color:black;
+}
